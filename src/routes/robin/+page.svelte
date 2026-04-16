@@ -69,7 +69,7 @@
   }
 
   .logo {
-    width: 200px;
+    width: 320px;
     height: auto;
     display: block;
   }
@@ -95,7 +95,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: end;
-    padding: 4rem 0;
+    padding: 2.5rem 0;
   }
 
   /* Naam */
@@ -108,7 +108,7 @@
   .naam {
     margin: 0;
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: clamp(3.5rem, 8vw, 5.5rem);
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
     font-weight: 400;
     line-height: 1.0;
     letter-spacing: -0.01em;
@@ -191,7 +191,7 @@
     }
 
     .naam {
-      font-size: clamp(3rem, 14vw, 4rem);
+      font-size: clamp(1.5rem, 8vw, 2rem);
     }
 
     .omschrijving {

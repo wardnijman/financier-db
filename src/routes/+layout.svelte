@@ -4,9 +4,10 @@
   let { children } = $props()
 
   let isAdmin = $derived(page.url.pathname.startsWith('/admin'))
+  let isCard = $derived(page.url.pathname.startsWith('/robin'))
 </script>
 
-{#if !isAdmin}
+{#if !isAdmin && !isCard}
   <header class="site-header">
     <div class="header-inner">
       <a href="/" class="site-logo">Vastgoedfinanciering</a>

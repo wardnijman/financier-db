@@ -11,7 +11,7 @@
   <!-- Bovenste balk: logo -->
   <header class="top">
     <img
-      src="https://i.ibb.co/tMjNkDPG/ADebt-logo-woordmerk-Monogram.png"
+      src="https://i.ibb.co/rRYzfPf5/ADebt-logo-woordmerk-Monogram.png"
       alt="ADebt Advisory"
       class="logo"
     />
